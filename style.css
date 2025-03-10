@@ -15,7 +15,7 @@
   --bg-color: #1f242d;
   --second-bg-color: #323946;
   --text-color: #fff;
-  --main-color: #0ef;
+  --main-color: rgb(0, 166, 255);
 }
 
 html {
@@ -85,6 +85,7 @@ section {
   width: 30vw;
   border-radius: 5%;
   animation: floatImage 4s ease-in-out infinite;
+  filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 0.5));
 }
 
 @keyframes floatImage {
@@ -171,6 +172,7 @@ span {
 .about-img img {
   width: 30vw;
   border-radius: 5%;
+  filter: drop-shadow(8px 8px 16px rgba(0, 0, 0, 0.5));
 }
 
 .heading {
